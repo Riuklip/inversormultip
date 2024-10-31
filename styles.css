@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: "Kanit", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background: rgb(148,187,233); */
+    /* background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(255,77,77,1) 100%);  */
+}
+h1{
+    margin: 50px auto;
+}
+.calc_div{
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    border: 2px black solid;
+    margin: 50px auto;
+    padding: 50px 30px;
+    border-radius: 20px;
+    background: rgb(255,77,77);
+    background: radial-gradient(circle, rgba(255,77,77,1) 0%, rgba(148,187,233,1) 100%); 
+
+}
+.calc_div>input{
+    width: 50px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background: transparent;
+    border: 2px white solid;
+     border-radius: 10px;
+     color: white;
+     text-align: center;
+}
+
+.calc_div>button{
+    /* width: 50px; */
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background: transparent;
+    border: 2px white solid;
+     border-radius: 10px;
+     color: white;
+     text-align: center;
+     cursor: pointer;
+     transition: .3s;
+}
+h2{
+    margin: auto 10px;
+}
+.calc_div>button:hover{
+    background-color: rgba(0, 0, 0, 0.199);
+}
+h3{
+    margin: auto 10px;
+    
+}
